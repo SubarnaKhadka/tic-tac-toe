@@ -1,0 +1,18 @@
+.winner{
+    color:green;
+    font-weight:bold;
+}
+.grid{
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: repeat(3,1fr);
+}
+.reset{
+    margin-top: 2rem;
+    padding: 1rem;
+    font-size: 2rem;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
